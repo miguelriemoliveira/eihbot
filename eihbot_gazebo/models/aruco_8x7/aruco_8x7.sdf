@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<sdf version="1.4">
+  <model name="aruco_8x7">
+    <static>1</static>
+    <link name="charuco">
+      <pose>0 0 0 0 0 0</pose>
+      <visual name="aruco_8x7">
+        <geometry>
+          <mesh>
+            <uri>model://aruco_8x7/aruco_8x7.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+      <collision name="aruco_8x7">
+        <geometry>
+          <mesh>
+            <uri>model://aruco_8x7/aruco_8x7.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+    </link>
+  </model>
+</sdf>
